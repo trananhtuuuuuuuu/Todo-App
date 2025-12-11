@@ -9,6 +9,8 @@ builder.Services.AddControllers();
 
 builder.Services.AddScoped<UserRepository>();
 builder.Services.AddScoped<UserService>();
+builder.Services.AddScoped<RoleRepository>();
+builder.Services.AddScoped<RoleService>();
 
 // Register DbContext BEFORE builder.Build()
 builder.Services.AddDbContext<AppDbContext>(options =>

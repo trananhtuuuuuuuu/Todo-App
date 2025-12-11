@@ -39,7 +39,7 @@ namespace interview.Models {
             Address = address;
             Gender = gender;
             CreatedAt = DateTime.UtcNow;
-            UpdatedAt = DateTime.UtcNow;
+            //UpdatedAt = DateTime.UtcNow;
         }
     }
 }
